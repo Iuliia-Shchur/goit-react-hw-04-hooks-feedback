@@ -40,7 +40,7 @@ function App() {
 
   return (
     <div className={s.App}>
-      <Section title="Please leave a feedback" children={Children}>
+      <Section title="Please leave a feedback">
         <FeedbackOptions options={options} onLeaveFeedback={onLeaveFeedback} />
       </Section>
       <Section title="Statistics">
